@@ -16,7 +16,7 @@ channel1 = 1138267923987845150  # original server channel id
 # server2 = 1138259376109539338 # new server id
 channel2 = 1138259415515021342  # new server channel
 Changes --
-First successful run. This was just between two channels of same server
+First successful run. This was just between two channels of same server.
 
 Success: 8/10/2023:12:03.
 # set server and channel variables
