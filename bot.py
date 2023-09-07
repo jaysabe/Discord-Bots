@@ -12,10 +12,10 @@ intents = discord.Intents(messages=True, guilds=True, message_content=True) # ch
 
 client = discord.Client(intents=intents)
 
+#Will convert this into keymap soon TODO:
 # set server and channel variables
 server1 = 1138259376109539338  # original server
 channel1 = 1138267923987845150  # original server channel id
-# Second server id not even needed! Just make sure permissions are enabled
 channel2 = 1139373875956813854  # new server channel
 
 
@@ -33,7 +33,7 @@ async def fwd_message(des_channel, author, message):
 @client.event
 # Message when bot runs without errors
 async def on_ready():
-    print(f"Bot is ready! :D Welcome {client.user.name} operator.")
+    print(f"Bot is ready! 😁 Welcome {client.user.name} operator.")
 
 
 @client.event
