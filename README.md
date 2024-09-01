@@ -1,7 +1,9 @@
-#message_fwd_bot
-This bot was created to read messages with embedded links and attachments in non-announcement channels, and forward them to another server's specified channel. In our case this was to read #videos channels in the PCC discord server, and forward them to separate tutoring servers for students to use as resources while they studied. 
+# Tutor Resource Bot
 
-Permissions needed to run:
+## Purpose
+TRB's purpose to read messages with embedded links and attachments in non-announcement channels, and forward them to another server's specified channel. In our case this was to read #videos channels in the PCC discord server, and forward them to separate tutoring servers for students to use as resources while they studied. 
+
+### Permissions needed to run:
 1. Read messages
 2. Send messages
 3. Embed links
